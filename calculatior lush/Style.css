@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(#666, #CCC);
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 5px;
+    color: white;
+    padding: 5px;
+    background-color:#666;
+    text-align: center;
+}
+
+#input {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#result {
+    width: 50%;
+    margin-top: 10px;
+    background-color:#FFF;
+    font-size: 30px;
+    color:#000;
+	border-radius: 10px;
+    border : none;
+    outline: none;
+}
+
+.btnac {
+    width: 200px;
+    padding: 7px 0px 7px 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#999;
+    color:#FFF;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn1c {
+    width: 80px;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin: 10px 5px 0px 5px;
+    background-color:#CCC;
+    color:#000;
+    border-radius: 30%;
+    outline: none;
+    font-size: 20px;
+}
+
+.equal {
+    background-color:#666;
+	color:#FFF;
+}
+
+.footer {
+    margin-top: 40px;
+    color:#333;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    .btnac {
+        width: 60%;
+    }
+    .btn1c {
+        width: 20%;
+    }
+    .footer {
+        font-size: 15px;
+    }
+}
